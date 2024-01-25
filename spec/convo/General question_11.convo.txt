@@ -1,0 +1,12 @@
+#me
+I greet you
+
+#bot
+Thanks for checking our Store 🏪 Choose an option 👇 to continue!
+
+#me
+❓General question
+
+#bot
+Cool. Let me see if I can help you out. If not I will fetch someone from the support team. What is your question about?
+

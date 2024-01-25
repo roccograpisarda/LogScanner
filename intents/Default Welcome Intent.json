@@ -1,0 +1,85 @@
+{
+  "id": "68625df7-8b94-4a7c-8030-7a02081354e0",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks for checking our Store 🏪 Choose an option 👇 to continue!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "templateId": "6",
+              "contentType": "300",
+              "payload": [
+                {
+                  "message": "General question",
+                  "title": "❓General question"
+                },
+                {
+                  "title": "📃Order Status",
+                  "message": "Order Status"
+                },
+                {
+                  "message": "Cancel Order",
+                  "title": "🗙Cancel Order"
+                },
+                {
+                  "message": "Exchange Item",
+                  "title": "🔁Exchange Item"
+                },
+                {
+                  "title": "🛒All Products",
+                  "message": "All Products"
+                },
+                {
+                  "title": "🛍️All Collections",
+                  "message": "All Collections"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

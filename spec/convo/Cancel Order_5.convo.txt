@@ -1,0 +1,12 @@
+#me
+hi there
+
+#bot
+Thanks for checking our Store 🏪 Choose an option 👇 to continue!
+
+#me
+🗙Cancel Order
+
+#bot
+Please provide us with the order number you'd like to cancel.
+

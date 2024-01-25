@@ -1,0 +1,12 @@
+#me
+hello
+
+#bot
+Thanks for checking our Store 🏪 Choose an option 👇 to continue!
+
+#me
+Order Status
+
+#bot
+Please provide us with the order number would you like to check the status.
+
